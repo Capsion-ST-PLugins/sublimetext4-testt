@@ -1,0 +1,15 @@
+{
+  "cmd": ["node", "$file"],
+  "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+  "encoding": "UTF8",
+  "shell": "true",
+  "file_patterns": ["*.js", "*.cjs", "*.mjs"],
+  "selector": "source.js",
+  "variants": [
+    {
+      "name":"node（外部调用）",
+      "encoding": "UTF8",
+      "shell_cmd": "start cmd /c \"node ${file} & timeout -t 3 & exit \""
+    }
+  ]
+}

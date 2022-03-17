@@ -1,0 +1,14 @@
+[
+  {
+    "caption": "Print Currt Param",
+    "command": "testt_print_param"
+  },
+  {
+    "caption": "Open Currt File Folder",
+    "command": "testt_open_currt_folder"
+  },
+  {
+    "caption": "Remove Comments Command",
+    "command": "testt_remove_comments"
+  }
+]
